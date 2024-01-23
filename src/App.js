@@ -8,7 +8,7 @@ import PostList from './components/PostList'
 function App() {
 	return (
 			<div>
-				<h1>Социальная сеть</h1>
+				<h1>hello bro</h1>
         <PostForm/>
         <PostList/>
 			</div>
