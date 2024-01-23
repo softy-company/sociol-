@@ -44,3 +44,24 @@
 .save-button {
 	background-color: #17bf63;
 }
+/* Основные стили, как раньше */
+
+@media (max-width: 600px) {
+	.post {
+		padding: 10px;
+	}
+
+	.buttons {
+		flex-direction: column;
+		margin-top: 5px;
+	}
+
+	.button {
+		margin-top: 5px;
+		width: 100%;
+	}
+
+	textarea {
+		width: calc(100% - 20px);
+	}
+}
