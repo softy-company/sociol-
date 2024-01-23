@@ -1,0 +1,46 @@
+.post-list-container {
+	margin-top: 20px;
+}
+
+.post {
+	background-color: #ffffff;
+	padding: 15px;
+	border: 1px solid #e1e8ed;
+	border-radius: 16px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post p {
+	margin: 0;
+	font-size: 16px;
+	color: #1c1e21;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.button {
+	padding: 8px 16px;
+	border: none;
+	border-radius: 999px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.edit-button {
+	background-color: #1da1f2;
+}
+
+.delete-button {
+	background-color: #ff4d4f;
+}
+
+.save-button {
+	background-color: #17bf63;
+}
